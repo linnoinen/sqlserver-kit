@@ -1,22 +1,4 @@
 # SQL Server KIT
-[![licence badge]][licence]
-[![stars badge]][stars]
-[![forks badge]][forks]
-[![issues badge]][issues]
-[![contributors_badge]][contributors]
-
-[licence badge]:https://img.shields.io/badge/license-MIT-blue.svg
-[stars badge]:https://img.shields.io/github/stars/ktaranov/sqlserver-kit.svg
-[forks badge]:https://img.shields.io/github/forks/ktaranov/sqlserver-kit.svg
-[issues badge]:https://img.shields.io/github/issues/ktaranov/sqlserver-kit.svg
-[contributors_badge]:https://img.shields.io/github/contributors/ktaranov/sqlserver-kit.svg
-
-[licence]:https://github.com/ktaranov/sqlserver-kit/blob/master/LICENSE.md
-[stars]:https://github.com/ktaranov/sqlserver-kit/stargazers
-[forks]:https://github.com/ktaranov/sqlserver-kit/network
-[issues]:https://github.com/ktaranov/sqlserver-kit/issues
-[contributors]:https://github.com/ktaranov/sqlserver-kit/graphs/contributors
-
 Useful links, scripts, tools and best practice for Microsoft SQL Server Database
 
 
@@ -26,19 +8,15 @@ Useful links, scripts, tools and best practice for Microsoft SQL Server Database
  - [SQL Server Web Resources](#sql-server-web-resources)
    - [SQL Server Blogs](#blogs)
    - [Security Resources](#security)
-   - [SQL Server Free Videos](#free-videos)
-   - [Free Database Podcasts](#podcasts)
+   - [SQL Server Videos](#free-videos)
    - [SQL Courses](#courses)
    - [SQL Server Backwards Compatibility](#backwards-compatibility)
    - [Social, Forum and Messenger SQL Server Groups](#sql-social)
    - [SQL Server Open Source Projects](#open-source)
- - [BIML Resources and Bloggers](#biml-resources-and-bloggers)
  - [PowerShell and SQL Server](#powershell-and-sql-server)
  - [TSQL Format Code](#tsql-format-code)
  - [SQL Server Test Data Generation](#sql-server-test-data-generation)
  - [Free SQL Server and R ebooks](#free-ebooks)
- - [License](#license)
-
 
 ## Repo Folders and Files
  - [SQL Server Data Types](/SQL%20Server%20Data%20Types.md)
@@ -63,11 +41,6 @@ Useful links, scripts, tools and best practice for Microsoft SQL Server Database
       - [SQL Server 2019 Diagnostic Information Queries](/Scripts/SQL%20Server%202019%20Diagnostic%20Information%20Queries.sql)
       - [SQL Server 2017 Diagnostic Information Queries](/Scripts/SQL%20Server%202017%20Diagnostic%20Information%20Queries.sql)
       - [SQL Server 2016 Diagnostic Information Queries](/Scripts/SQL%20Server%202016%20Diagnostic%20Information%20Queries.sql)
-      - [SQL Server 2014 Diagnostic Information Queries](Scripts/SQL%20Server%202014%20Diagnostic%20Information%20Queries.sql)
-      - [SQL Server 2012 Diagnostic Information Queries](/Scripts/SQL%20Server%202012%20Diagnostic%20Information%20Queries.sql)
-      - [SQL Server 2008 R2 Diagnostic Information Queries](/Scripts/SQL%20Server%202008%20R2%20Diagnostic%20Information%20Queries.sql)
-      - [SQL Server 2008 Diagnostic Information Queries](/Scripts/SQL%20Server%202008%20Diagnostic%20Information%20Queries.sql)
-      - [SQL Server 2005 Diagnostic Information Queries](/Scripts/SQL%20Server%202005%20Diagnostic%20Information%20Queries.sql)
     - [Table count alternative](/Scripts/Table%20Count%20alternative.sql) (by Jes Schultz Borland)
     - [Foreign Key batch rename](/Scripts/Foreign%20Key%20batch%20rename.sql) (by Wes Henriksen)
     - [Count character matches](/Scripts/Count%20character%20matches.sql)
@@ -187,23 +160,6 @@ Useful links, scripts, tools and best practice for Microsoft SQL Server Database
    - [Youtube Pragmatic Works Video](https://www.youtube.com/user/PragmaticWorks) (by Devin Knight and Manuel Quintana)
    - [MVP: Data Platform](https://channel9.msdn.com/Blogs/MVP-Data-Platform)
    - [Build 2018 conference](http://sqlservercode.blogspot.ru/2018/05/azure-sql-data-warehouse-azure-sql.html)
- - Free Database Podcasts <a id="podcasts"></a>
-   - [SQL Server Radio](http://www.sqlserverradio.com/) (by Guy Glantser and Matan Yungman)
-   - [SQL Data Partners](http://sqldatapartners.com/podcast/) (by Carlos L Chacon, César Oviedo and Adrian Miranda)
-   - [Away from the Keyboard](http://awayfromthekeyboard.com/) (by Cecil Phillip and Richie Rump)
-   - [RunAs Radio](http://runasradio.com/) (by Richard Campbell and Greg Hughes)
-   - [People Talking Tech](http://peopletalkingtech.com/) (by Denny Cherry)
-   - [NET Rocks!](http://www.dotnetrocks.com/) (by Richard Campbell and Carl Franklin)
-   - [SQL Down Under Podcast](http://www.sqldownunder.com/Podcasts) (by Greg Low)
-   - [Free sql server video tutorials for beginners](http://csharp-video-tutorials.blogspot.ru/p/free-sql-server-video-tutorials-for.html) (by PRAGIM Technologies)
-   - [Midnight DBA Podcast](http://midnightdba.itbookworm.com/Show) (by Sean and Jen McCown)
-   - [Dear SQL DBA](https://www.littlekendra.com/dearsqldba/) (by Kendra Little)
-   - [GroupBy.org - Group By is a free online event for the community, by the community](https://groupby.org/) (by Brent Ozar team)
-   - [DevopsCafe](http://devopscafe.org/) (by John Willis and Damon Edwards)
-   - [SQLPlayer](http://sqlplayer.net/) (by Kamil Nowinski and Damian Widera)
-   - [Data Driven](http://datadriven.tv/) (by Frank La Vigne and Andy Leonard)
-   - [SQL Down Under Podcast](https://www.sqldownunder.com) (by Greg Low)
-   - [SQL Undercover Podcast](https://sqlundercover.com/category/podcast/) (by David Fowler and Adrian Buckman)
  - Courses <a id="courses"></a>
    - Free
      - [Learn SQL Server by solving problems](https://sqlworkbooks.com/courses-overview/) (by Little Kendra)
@@ -221,17 +177,6 @@ Useful links, scripts, tools and best practice for Microsoft SQL Server Database
      - [SQL-EX.ru - Practical skills of SQL language](http://www.sql-ex.ru) (Russian, English)
      - [Free Azure certification training courses](https://rlevchenko.com/2019/01/11/free-azure-certification-training-courses/)
      - [SQL Server Tutorial](https://www.tutorialgateway.org/sql/) (by Tutorial Gateway)
-   - Paid
-     - [Lynda Courses](http://www.lynda.com/SQL-Server-training-tutorials/456-0.html)
-     - [Veeam Free Courses](https://go.veeam.com/microsoft-sql-series-webinars.html)
-     - [SQLSkills Trainings](https://www.sqlskills.com/sql-server-training/online-training/)
-     - [Brent Ozar Team Trainings](https://learnfrom.brentozar.com/)
-     - [Pluralsight Courses](https://www.pluralsight.com/search?q=sql+server&categories=all)
-     - [SolidQ Classes](https://training.solidq.com/classes/)
-     - [JOOQ SQL Masterclass](http://www.jooq.org/training/)
-     - [Learn SQL Server High Availability & Disaster Recovery](https://learnsqlserverhadr.com/) (by Edwin M Sarmiento)
-     - [Madeira Data Solutions Academy](http://madeira-data-solutions.teachable.com/)
-     - [SQLpassion Online Academy](http://www.sqlpassion.at/online-training/index.html) (by Klaus Aschenbrenner)
  - SQL Server Backwards Compatibility <a id="backwards-compatibility"></a>
    - [2017 Backwards Compatibility](https://docs.microsoft.com/en-us/sql/database-engine/sql-server-database-engine-backward-compatibility)
    - [2016 Backwards Compatibility](https://docs.microsoft.com/en-us/sql/database-engine/sql-server-database-engine-backward-compatibility)
@@ -248,14 +193,6 @@ Useful links, scripts, tools and best practice for Microsoft SQL Server Database
    - [Troubleshooting connectivity issues with Microsoft Azure SQL Database](https://support.microsoft.com/en-in/help/10085/troubleshooting-connectivity-issues-with-microsoft-azure-sql-database)
    - [Troubleshooting Always On Issues](https://support.microsoft.com/en-us/help/10179/troubleshooting-alwayson-issues)
    - [Guide for enhancing privacy and addressing GDPR requirements with the Microsoft SQL platform](https://aka.ms/gdprsqlwhitepaper)
- - SQL Server feedbacks <a id="feedbacks">
-   - [SQL Server help and feedback](https://docs.microsoft.com/en-us/sql/sql-server/sql-server-get-help)
-   - [Azure Data Studio feedback](https://github.com/Microsoft/azuredatastudio/issues)
-   - [Azure SQL DB feedback](https://feedback.azure.com/forums/217321-sql-database)
-   - [Azure SQL DB Managed Instances feedback](https://feedback.azure.com/forums/915676-sql-managed-instance)
-   - [Power BI feedback](https://ideas.powerbi.com/forums/265200-power-bi-ideas)
-   - [SSMS feedback](https://social.msdn.microsoft.com/Forums/en-US/home?forum=sqltools)
-   - [SQL Server Data Tools feedback](https://social.msdn.microsoft.com/Forums/en-US/home?forum=ssdt&filter=alltypes&sort=lastpostdesc)
  - Social, Forum and Messenger SQL Server Groups <a id="sql-social"></a>
    - [SQLServerCentral Forum](http://www.sqlservercentral.com/Forums/) (more than 10^6 People)
    - [Slack #sqlhelp](https://sqlcommunity.slack.com/messages/sqlhelp/) (more than 900 People)
@@ -393,51 +330,6 @@ Useful links, scripts, tools and best practice for Microsoft SQL Server Database
 
 **[⬆ back to top](#table-of-contents)**
 
-
-## BIML Resources and Bloggers
-BIML - [Business Intelligence Markup Language](https://varigence.com/biml)
-
-BIML Resources
-- [BimlScript.com](http://bimlscript.com/)
-- [Varigence](https://varigence.com/Biml)
-- [Biml Forum at Varigence](https://varigence.com/Forums?forumName=Biml)
-- [SQLServerCentral.com](http://www.sqlservercentral.com/search/?q=Biml)
-- [Stairway to Biml](http://www.sqlservercentral.com/stairway/100550/)
-- [Biml User Group at LinkedIn](https://www.linkedin.com/groups/4640985)
-- [Building Blocks of Biml (Pluralsight course by Stacia Misner Varga)](https://app.pluralsight.com/library/courses/building-blocks-biml/table-of-contents)
-- [Biml-tagged posts on this blog](http://sqlblog.com/blogs/andy_leonard/archive/tags/BIML/default.aspx)
-
-BIML Bloggers
-- [Ben Weissman](https://www.solisyon.de/biml-blog-de/)
-- [Bill Fellows](http://billfellows.blogspot.com/search/label/Biml)
-- [Boris Hristov](http://borishristov.com/biml/)
-- [Brian Bønk](http://www.bonk.dk/biml/)
-- [Cathrine Wilhelmsen](http://www.cathrinewilhelmsen.net/biml/)
-- [Datachix: Julie Smith and Audrey Hammonds](http://datachix.com/)
-- [David Stein](http://www.made2mentor.com/category/biml/)
-- [Davide Mauri](http://sqlblog.com/blogs/davide_mauri/archive/tags/BIML/default.aspx)
-- [Erik Hudzik](http://www.anexinet.com/blog/author/ehudzik/)
-- [Hennie de Nooijer](http://bifuture.blogspot.com/search/label/BIML)
-- [John Welch](http://agilebi.com/jwelch/tag/biml/)
-- [Joost van Rossum](http://microsoft-ssis.blogspot.com/search/label/BIML)
-- [Koen Verbeeck](http://blogs.lessthandot.com/index.php/tag/biml/)
-- [Marco Schreuder](http://blog.in2bi.eu/biml/)
-- [Martin Andersson](http://www.frysdisken.net/)
-- [Meagan Longoria](https://datasavvy.wordpress.com/category/biml/)
-- [Nicholas Sorrell](http://sorrell.github.io/)
-- [Paul Te Braak](https://paultebraak.wordpress.com/tag/biml/)
-- [Peter Schott](http://schottsql.blogspot.com/search/label/BIML)
-- [Reeves Smith](https://reevessmith.wordpress.com/category/biml/)
-- [Roelant Vos](http://roelantvos.com/blog/?tag=biml)
-- [Rui Custódio](http://www.bi4all.pt/taxonomy/term/75)
-- [Samuel Vanga](http://samuelvanga.com/category/biml/)
-- [Stephen Leach](http://www.imgroup.com/author/stephen-leach/)
-- [Tim Mitchell](https://www.timmitchell.net/post/tag/biml/)
-- [Warwick Rudd](http://www.sqlmastersconsulting.com.au/SQL-Server-Blog/PID/1675/mcat/1682/evl/0/nsw/t/EDNSearch/Biml)
-
-**[⬆ back to top](#table-of-contents)**
-
-
 ## PowerShell and SQL Server
  - [SQL Server & Windows Documentation Using Windows PowerShell](https://sqlpowerdoc.codeplex.com/) (by Kendal Vandyke)
  - [Stairway to SQL PowerShell](http://www.sqlservercentral.com/stairway/91327/) (by Ben Miller)
@@ -558,6 +450,3 @@ R:
 
 ## License
 [MIT](/LICENSE)
-
-If some procedures or scripts are restricted due to **ELUA** (or we can not find original author), please email us or add issue - we remove/update it immediately.
-Thanks for understanding and patience.
